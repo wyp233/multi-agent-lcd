@@ -31,11 +31,11 @@ in the coarse search and 'exp' in the fine search.
 ## Testing results
 1. The code will save all the loop closures according to your 'storage_path'
 
-   <img alt="image" height="150" src="https://github.com/wyp233/multi-agent-lcd/blob/Yunpeng-Wei-LCD/results_1.png" width="200"/>
-   <img alt="image" height="100" src="https://github.com/wyp233/multi-agent-lcd/blob/Yunpeng-Wei-LCD/results_2.png" width="400"/>
+   <img alt="image" height="150" src="https://github.com/wyp233/multi-agent-lcd/blob/main/results_1.png" width="200"/>
+   <img alt="image" height="100" src="https://github.com/wyp233/multi-agent-lcd/blob/main/results_2.png" width="400"/>
 2. It will draw the trajectory according to the pose information.
 
-   <img alt="image" height="200" src="https://github.com/wyp233/multi-agent-lcd/blob/Yunpeng-Wei-LCD/results_3.png" width="200"/>
+   <img alt="image" height="200" src="https://github.com/wyp233/multi-agent-lcd/blob/main/results_3.png" width="200"/>
 3. The confusion matrix is calculated according to the ground truth table. We calculate the
 ground truth table according to the pose info. If the distance between two location is smaller than 3 meter(predefined para),
 we consider it as the same location. 

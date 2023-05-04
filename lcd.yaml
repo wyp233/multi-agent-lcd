@@ -1,0 +1,33 @@
+
+# define the threshold and some predefined parameter for loop closure detection
+
+para_coarse_knn_k: 20  # select K1 nearest neighbours in coarse search
+para_fine_knn_k: 10  # select K2 nearest neighbours in fine search
+
+para_sufficient_motion: 3  # according to the camera speed, unit:meter
+
+para_l2_dis: 1.3  # inverse l2 distance threshold
+para_exp_sigma: 2  # sigma for exp kernel
+para_exp_dis: 0.5  # exp kernel distance threshold
+
+para_decision_quality: 1.1  # Estimate the decision quality
+para_geometric_check: 0.3  # geometric consistency check threshold
+
+# changeable distance type
+fun_coarse_knn: cosine  # Distance function for KNN computation in Coarse SDS Module
+fun_coarse_score: l2  # Distance function for score computation in Coarse SDS Module
+fun_fine_knn: cosine  # Distance function for KNN computation in Fine SDS Module
+fun_fine_score: exp  # Distance function for score computation in Fine SDS Module
+
+# some image memory path
+A_mem_path: D:/wyp/stage 3 final project/kitti/dataset/sequences/00/test A
+B_mem_path: D:/wyp/stage 3 final project/kitti/dataset/sequences/00/test B
+general_path: D:/wyp/stage 3 final project/kitti/dataset/sequences/00/image_0/
+pose_path: D:/wyp/stage 3 final project/kitti/dataset/poses/00.txt
+storage_path: D:/wyp/stage 3 final project/results/
+
+A_start_label: 300
+A_end_label: 600
+
+B_start_label: 3300
+B_end_label: 3600
